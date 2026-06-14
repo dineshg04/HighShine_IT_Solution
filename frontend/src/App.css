@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@keyframes scroll {
+    from {
+            transform: translateX(0);
+        }
+    
+        to {
+            transform: translateX(calc(-33.333%));
+        }
+}
+
+@keyframes reversePing {
+    0% {
+        transform: scale(2);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.animate-scroll {
+    animation: scroll 35s linear infinite;
+}
+
+
+
+
+
+
+
+
+
