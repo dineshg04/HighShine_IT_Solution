@@ -63,11 +63,7 @@ const getVisitorSummary = async (req, res, next) => {
   }
 };
 
-// ─────────────────────────────────────────────────────────────────────────────
-// GET /api/visitors/trend
-// Returns daily visit counts for the last 30 days.
-// Protected by API key.
-// ─────────────────────────────────────────────────────────────────────────────
+
 const getVisitorTrend = async (req, res, next) => {
   try {
     const thirtyDaysAgo = new Date();
