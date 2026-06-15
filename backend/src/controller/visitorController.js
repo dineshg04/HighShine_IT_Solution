@@ -119,7 +119,4 @@ const getVisitorTrend = async (req, res, next) => {
 
 
 
-
-
-
 module.exports = { logVisitor, getVisitorSummary, getVisitorTrend } ; 
