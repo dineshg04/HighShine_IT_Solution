@@ -13,7 +13,7 @@ router.post("/visitor", logVisitor);
 
 router.get("/visitors/summary", apiKeyAuth, getVisitorSummary);
 
-// GET /visitors/trend — protected with API key
+
 router.get("/visitors/trend", apiKeyAuth, getVisitorTrend);
 
 module.exports = router;

@@ -37,7 +37,7 @@ const visitorSchema = new mongoose.Schema(
   }
 );
 
-// Compound index speeds up the summary aggregation (group by page + country)
+
 visitorSchema.index({ page: 1, country: 1 });
 
 const Visitor = mongoose.model("Visitor", visitorSchema);
